@@ -5,6 +5,8 @@
 The VAE and VQ-VAE algoritms were tested on CIFAR10 Dataset, the best of two is VAE due to its higher performance with all
 loss functions, the latent dim of VAE is set to 128 as its dim is the best among tested ([64, 128, 256, 512])
 
+To start training, install the requirements, change configs if necessary in 'configs.py' and run 'run.py'
+
 As the experiment, a number of robust loss functions were compared to each other and with the standard MSE Loss
 <p align="center" width="100%">
     <img width="70%" src="images/robust_losses.png">
