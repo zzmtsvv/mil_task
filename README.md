@@ -2,16 +2,6 @@
 
 ## Learning a custom classifier for CIFAR10 Dataset based on Variational Autoencoder embeddings
 
-
-structure:
-    - 'blocks.py': submodules of networks, metrics, losses for training
-    - 'configs.py': configs with parameters needed to create dataset and models
-    - 'dataset.py': dataset wrapper
-    - 'models.py': classes for autoencoder and a classifier
-    - 'trainers.py': trainer classes for autoencoder and a classifier
-    - 'utils.py': useful functions for reproducibility, visualization and retrieval of similar image embeddings
-    - 'run.py': main file to start training of autoencoder/classifier with given configs
-
 The VAE and VQ-VAE algoritms were tested on CIFAR10 Dataset, the best of two is VAE due to its higher performance with all
 loss functions, the latent dim of VAE is set to 128 as its dim is the best among tested ([64, 128, 256, 512])
 
